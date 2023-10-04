@@ -37,8 +37,8 @@ android:scaleType="fitCenter"
  Uri uri = ContactsContract.CommonDataKinds.Phone.CONTENT_URI;
  Cursor cursor = contentResolver.query(uri,null,null,null,null);
 ```
-* ##### Four main Android app components
-activities, services, content providers, and broadcast receivers.
+* Four main Android app components <br/>
+→ activities, services, content providers, and broadcast receivers.
 
 
 ## Section 30 : Calculator Apps
@@ -49,24 +49,32 @@ activities, services, content providers, and broadcast receivers.
 ```
 app:backgroundTint="@null"
 ```
-* ##### Parent component's gravity attribute affects child's location
+*  Parent component's gravity attribute affects child's location 
 
 
 ## Section 31 :  Master Location Services In Android
 
-* ##### How to use Google Map in Android
+*  How to use Google Map in Android <br/>
 Get API key and use Google Maps Views Activity
 
 *  How to get fine location permission
 ```java
  ActivityCompat.requestPermissions(this,new String[]{Manifest.permission.ACCESS_FINE_LOCATION},FINE_LOCATION_REQUEST_CODE);
 ```
-* ##### FusedLocationProviderClient : getLastLocation 
-Returns most recent location
+*  FusedLocationProviderClient : getLastLocation <br/>
+→ Returns most recent location
 
-* ##### GoogleMap : setMyLocationEnable 
-Continuously draws an indication of a user’s current location
+* GoogleMap : setMyLocationEnable <br/>
+→ Continuously draws an indication of a user’s current location
 
+## Section 32 :  Exoplayer Media Application Development
 
+#### What I learned in this course : 
 
+> * Play music with exoplayer
+> * Customize user interface of exoplayer
+> * Get permission with Dexter library
+> * Download music with uri 
 
+* How to download music <br/>
+→ Use DownloadManager
